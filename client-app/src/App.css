@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.Card {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 0.1rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.Card > div {
+    display: flex;
+    align-items: center;
+}
+
+.Card--avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+}
+
+.Card--name {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+.Card--link {
+    text-decoration: none;
+    background: #00ace0;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.45rem 0.7rem;
+    border-radius: 20px;
+}
